@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Bottom-left ribbon swoosh - outer curve -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeColor="#5AC6C2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M22,82 Q12,68 18,52 Q24,36 42,28"/>
+    
+    <!-- Bottom-left ribbon swoosh - inner curve -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeColor="#5AC6C2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M28,76 Q20,64 26,50 Q32,38 46,32"/>
+    
+    <!-- Top-left small star -->
+    <path
+        android:fillColor="#5AC6C2"
+        android:pathData="M32,30 L33.5,34 L38,34 L34.5,37 L36,41 L32,38 L28,41 L29.5,37 L26,34 L30.5,34 Z"/>
+    
+    <!-- Top circle (larger) -->
+    <path
+        android:fillColor="#5AC6C2"
+        android:pathData="M54,28 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0"/>
+    
+    <!-- Wavy S-curve line in center -->
+    <path
+        android:strokeWidth="4"
+        android:strokeColor="#5AC6C2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M46,68 Q40,58 48,48 Q56,38 48,28"/>
+    
+    <!-- Right middle circle (smaller) -->
+    <path
+        android:fillColor="#5AC6C2"
+        android:pathData="M68,48 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"/>
+    
+    <!-- Bottom-right larger star -->
+    <path
+        android:fillColor="#5AC6C2"
+        android:pathData="M66,60 L68.5,67 L76,67 L70,72 L72,79 L66,74 L60,79 L62,72 L56,67 L63.5,67 Z"/>
+        
+</vector>
+
